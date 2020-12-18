@@ -1,0 +1,8 @@
+{
+  "less.compile": {
+    "out": "${workspaceRoot}/theme/css/",
+    "main": [
+      "main.less"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+.layout04_c .seeyon-portal-header {
+  height: 64px;
+}
+.layout04_c .seeyon-portal-header .wideLogo {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.layout04_c .seeyon-portal-header .wideLogo .companyNames .cnName {
+  color: #e0b07f;
+}
+.layout04_c .seeyon-portal-header .wideLogo .companyNames .enName {
+  color: #f4e3d1;
+}
+.layout04_c .seeyon-portal-header .topRightsystemOperation {
+  height: 64px;
+  line-height: 64px;
+}
+.layout04_c .seeyon-portal-header .topCenterNav {
+  height: 64px;
+  padding-top: 3px;
+  bottom: 3px;
+}
+.layout04_c .seeyon-portal-header .topCenterNav .navName {
+  padding-top: 3px;
+}
+.layout04_c .seeyon-portal-header .topCenterNav li.current .navBottomBorder {
+  background: #e0b07f;
+}
+.layout04_c .seeyon-portal-left {
+  top: 64px;
+}
+.layout04_c .seeyon-portal-left .draggableLeftArea {
+  top: 0;
+  height: 32px;
+  background: #46423b;
+}
+.layout04_c .seeyon-portal-left .draggableLeftArea .draggableLeftBtn {
+  top: 8px;
+}
+.layout04_c .seeyon-portal-body {
+  top: 64px;
+}
+.layout04_c .leftExtendableMenu.lev .navTitleName .navText {
+  color: #e0b07f;
+}
+.layout04_c .leftExtendableMenu.lev .lev1Ul .lev1Li.current .lev1Title {
+  color: #f4e3d1;
+  background-color: rgba(70, 66, 59, 0.2);
+}
+.layout04_c .leftExtendableMenu.lev .lev1Ul .lev1Li:hover .lev1Title {
+  color: #f4e3d1;
+  background-color: rgba(70, 66, 59, 0.2);
+}
+.layout04_c .leftExtendableMenu.lev .lev2Ul .lev2Li.current .lev2Title {
+  background-color: #46423b;
+}
+.layout04_c .leftExtendableMenu.lev .lev2Ul .lev2Title {
+  border-left: 5px solid #46423b;
+  margin: 0 0 0 20px;
+  padding: 5px 10px;
+  border-radius: 0;
+}
+.layout04_c .leftExtendableMenu.lev .lev2Ul .lev2Title .navIcon {
+  display: none;
+}
+.layout04_c .leftExtendableMenu.lev .lev2Ul .lev2Title .navText {
+  left: 0.5em;
+  color: rgba(224, 176, 127, 0.8);
+}
+.layout04_c .leftExtendableMenu.lev .lev2Ul .lev2Title:hover {
+  background-color: #46423b;
+}
+.layout04_c .leftExtendableMenu.lev .lev3Ul {
+  border-top: 1px solid #46423b;
+  border-bottom: 1px solid #46423b;
+  background: rgba(70, 66, 59, 0.3);
+}
+.layout04_c .leftExtendableMenu.lev .lev3Ul .lev3Title .navIcon {
+  display: none;
+}
+.layout04_c .leftExtendableMenu.lev .lev3Ul .lev3Title .navText {
+  left: 2em;
+  color: #f4e3d1;
+}
+.layout04_c .leftExtendableMenu.lev .lev3Ul .lev3Title:hover {
+  background-color: #26211e;
+}
+.layout05_a .seeyon-portal-header li {
+  color: #e0b07f;
+}
+.layout05_a .seeyon-portal-header i.vportal {
+  color: #e0b07f;
+}
+.layout05_a .seeyon-portal-header .welcomeInfo {
+  color: #e0b07f;
+}
+.layout05_a .wrapper .leftShortcutAndMenu {
+  top: 160px;
+}
+.layout05_a .wrapper.collapse .leftShortcutAndMenu {
+  top: 100px;
+}
+.layout05_a .draggableLeftArea {
+  top: 0;
+  height: 32px;
+  background: #111111;
+}
+.layout05_a .draggableLeftArea .draggableLeftBtn {
+  top: 8px;
+}
+.layout05_a .seeyon-portal-left li {
+  color: #e0b07f;
+}
+.layout05_a .seeyon-portal-left .logo4business .logo img {
+  object-fit: contain;
+  object-position: top;
+}
+.layout05_a .seeyon-portal-left .lev1Title i.vportal {
+  color: #e0b07f;
+}
+.layout05_a .seeyon-portal-left .lev1Title .navText {
+  color: #e0b07f;
+}
