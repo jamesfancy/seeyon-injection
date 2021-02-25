@@ -1,0 +1,153 @@
+.layout04_c {
+  // 左边的手风琴菜单
+  @headerHeight: 64px;
+  @mainLightColor: #e0b07f;
+  @secondLightColor: lighten(@mainLightColor, 20%);
+  @mainDarkColor: #26211e;
+  @sideBackground: #252526;
+  @secondDarkColor: #46423b;
+  @contentBackground: #ebebeb;
+
+  .seeyon-portal-header {
+    height: @headerHeight;
+    background-color: @sideBackground;
+
+    .wideLogo {
+      padding-top: 8px;
+      padding-left: 8px;
+
+      .companyNames {
+        .cnName {
+          color: @mainLightColor;
+        }
+
+        .enName {
+          color: @secondLightColor;
+        }
+      }
+    }
+
+    .topRightsystemOperation {
+      height: @headerHeight;
+      line-height: @headerHeight;
+    }
+
+    .topCenterNav {
+      height: @headerHeight;
+      padding-top: 3px;
+      bottom: 3px;
+
+      .navName {
+        padding-top: 3px;
+      }
+
+      li.current {
+        .navBottomBorder {
+          background: @mainLightColor;
+        }
+      }
+    }
+  }
+
+  .seeyon-portal-left {
+    top: @headerHeight;
+    background-color: @sideBackground;
+
+    .draggableLeftArea {
+      top: 0;
+      height: 32px;
+      background: @secondDarkColor;
+
+      .draggableLeftBtn {
+        top: 8px;
+      }
+    }
+  }
+
+  .seeyon-portal-body {
+    top: @headerHeight;
+  }
+
+  .leftExtendableMenu.lev {
+    .navTitleName {
+      .navText {
+        color: @mainLightColor;
+      }
+    }
+
+    .lev1Ul {
+      .highlight() {
+        .lev1Title {
+          color: @secondLightColor;
+          background-color: fade(@secondDarkColor, 20%);
+        }
+      }
+
+      .lev1Li {
+        &.current {
+          .highlight();
+        }
+
+        &:hover {
+          .highlight();
+        }
+      }
+    }
+
+    .lev2Ul {
+      .highlight() {
+        background-color: @secondDarkColor;
+      }
+
+      .lev2Li {
+        &.current {
+          .lev2Title {
+            .highlight();
+          }
+        }
+      }
+
+      .lev2Title {
+        border-left: 5px solid @secondDarkColor;
+        margin: 0 0 0 20px;
+        padding: 5px 10px;
+        border-radius: 0;
+
+        .navIcon {
+          display: none;
+        }
+
+        .navText {
+          left: 0.5em;
+          color: fade(@mainLightColor, 80%);
+        }
+
+        &:hover {
+          .highlight();
+        }
+      }
+    }
+
+    .lev3Ul {
+      background: fade(@secondDarkColor, 30%);
+      border-top: 1px solid @secondDarkColor;
+      border-bottom: 1px solid @secondDarkColor;
+      border-left: 5px solid @secondDarkColor;
+
+      .lev3Title {
+        .navIcon {
+          display: none;
+        }
+
+        .navText {
+          left: 1em;
+          color: @secondLightColor;
+        }
+
+        &:hover {
+          background-color: @mainDarkColor;
+        }
+      }
+    }
+  }
+}
